@@ -66,3 +66,16 @@ You can control the simulation using command-line arguments.
 
 ```bash
 ./ns3 run scratch/dao-replay-mitigation
+```
+
+#### Example 2: Run without the attacker (Attacker OFF)
+
+```bash
+./ns3 run "scratch/dao-replay-mitigation --enableAttacker=false"
+```
+
+#### Example 3: Run a larger simulation
+
+```bash
+./ns3 run "scratch/dao-replay-mitigation --nSensors=20 --simTime=60.0"
+```
